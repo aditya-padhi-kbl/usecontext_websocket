@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.unrated::before {
+  content: "\2606";
+  font-size: 22px;
+}
+
+.rated::before {
+  content: "\2605";
+  font-size: 22px;
+  color: tomato;
+}
